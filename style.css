@@ -1,0 +1,217 @@
+/* removing padding and margin */
+body {
+    font-family: roboto;
+    padding: 0;
+    margin: 0;
+}
+
+.header,
+.hero,
+.container,
+.container2,
+.container3,
+.footer {
+    width: 100%;
+}
+
+/* Header style */
+.header {
+    overflow: hidden;
+    background-color:  rgb(190, 0, 0);
+    padding: 20px 10px;
+}
+
+/* Style header link */
+.header a {
+    float: left;
+    color: #E2E7EB;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+/* Style header logo */
+.header a.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-left: 110px;
+}
+
+/* Style change wh */
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header-right {
+    float: right;
+    margin-right: 10%;
+}
+
+
+.hero {
+    background-color: #1f2937;
+    padding: 5px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text {
+    font: 18px;
+
+}
+
+.hero-left {
+    width: 30%;
+    margin: 10%;
+    margin-left: 0;
+}
+
+h2 {
+    font: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin: 10px;
+}
+
+.button-hero {
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    padding: 10px 32px;
+    text-align: center;
+    font: 15px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.hero-right {
+    width: 30%;
+    height: 300px;
+    background-color: grey;
+    margin: 10%;
+}
+
+/* Second section */
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.section {
+    flex: 1;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    justify-self: center;
+}
+
+.blocks {
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+    border-color: rgb(190, 0, 0);;
+    border-radius: 5%;
+    flex-direction: row;
+}
+
+.card-text {
+    text-align: center;
+}
+/* Quote */
+.quote{
+    text-align: center;
+    height: fit-content;
+    background-color:#e5e7eb ;
+    padding: 20px;
+
+}
+.container2{
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;    
+}
+.text{
+    font-style: light italic;    
+    font-size: 36px;
+    margin: auto;
+    text-align: left;
+}
+.author{
+font-size: 24px;
+text-align: right;
+}
+
+/* call to action */
+.call2action{
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    height: 300px;
+}
+
+.container3{
+    background-color: #3882f6;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    height: 100px;
+}
+
+.c2atext{
+    color: #fff;
+    text-align: left;
+    margin-left: 40px;
+    padding: 2%;
+    width: 600px;
+    float: left;
+}
+
+.c2abutton{
+    border:solid white ;
+    border-radius: 8px;
+    width: 10%;
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+    color: #fff;
+    padding: 1%;
+
+}
+/* Footer */
+.footer {
+    overflow: hidden;
+    background-color: #1f2937;
+    padding: 0px 10px;
+    position: sticky;
+    width: 100%;
+    color: white;
+    left: 0;
+    bottom: 0;
+}
